@@ -1,3 +1,4 @@
+#!/bin/sh
 npm install
 npm install --save axios react-chartjs-2 react-countup classnames
 npm install --save @material-ui/core
