@@ -1,0 +1,21 @@
+.container {
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 0% !important; /* Since Card is from material-ui, we need the !important */
+    background-color: lightgrey !important;
+    border: "none" !important;
+}
+
+.infected {
+    border: "none" !important;
+}
+
+.recovered {
+    border: "none" !important;
+}
+
+.deaths {
+    border: "none" !important;
+}
