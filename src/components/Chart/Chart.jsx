@@ -59,7 +59,7 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country, totalRecovered
                     labels: [provinces[0], provinces[1], provinces[2], provinces[3], provinces[4], provinces[5], provinces[6],
                     provinces[7], provinces[8], provinces[9], provinces[10], provinces[11], provinces[12]],
                     datasets: [{
-                        label: 'People',
+                        label: 'Active Cases',
                         backgroundColor: [
                             //Reference: https://www.rapidtables.com/web/color/RGB_Color.html
                             'rgba(255, 0, 0, 0.5)',
@@ -116,7 +116,7 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country, totalRecovered
                     labels: [provinces[0], provinces[1], provinces[2], provinces[3], provinces[4], provinces[5], provinces[6],
                     provinces[7], provinces[8], provinces[9], provinces[10], provinces[11], provinces[12]],
                     datasets: [{
-                        label: 'People',
+                        label: 'Recovered',
                         backgroundColor: [
                             //Reference: https://www.rapidtables.com/web/color/RGB_Color.html
                             // 'rgba(255, 0, 0, 0.5)',
@@ -186,7 +186,7 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country, totalRecovered
                     labels: [provinces[0], provinces[1], provinces[2], provinces[3], provinces[4], provinces[5], provinces[6],
                     provinces[7], provinces[8], provinces[9], provinces[10], provinces[11], provinces[12]],
                     datasets: [{
-                        label: 'People',
+                        label: 'Deaths',
                         backgroundColor: [
                             //Reference: https://www.rapidtables.com/web/color/RGB_Color.html
                             'rgba(255, 0, 0, 0.5)',
